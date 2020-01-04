@@ -52,12 +52,12 @@ contract Caller {
 
 /*
 
-> Caller er = await Caller.deployed();
-> Caller ee = await Callee.deployed();
-> await er.setCallee(ee.address);
+> let er = await Caller.deployed()
+> let ee = await Callee.deployed()
+> await er.setCallee(ee.address)
 
 
-> await er.addCall(1, 2);
+> await er.addCall(1, 2)
 
 > er.x()
 BN { negative: 0, words: [ 0, <1 empty item> ], length: 1, red: null }
